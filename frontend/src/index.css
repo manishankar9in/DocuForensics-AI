@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #070B12;
+  color: #F1F5F9;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Base input and form controls matching design system */
+input, select, textarea {
+  color: #F1F5F9 !important;
+  background-color: #0D1420 !important;
+  border-color: #243247 !important;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #718096 !important;
+}
+
+input:focus, select:focus, textarea:focus {
+  border-color: #20B8A6 !important;
+  outline: none !important;
+  box-shadow: 0 0 0 1px #20B8A6 !important;
+}
+
+/* Subtle forensic scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #070B12;
+}
+::-webkit-scrollbar-thumb {
+  background: #243247;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #20B8A6;
+}

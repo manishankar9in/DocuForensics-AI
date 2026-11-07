@@ -1,0 +1,45 @@
+# Python & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+backend/venv/
+backend/.venv/
+venv/
+env/
+ENV/
+
+# Local data & storage (Original files kept locally)
+backend/storage/
+storage/
+*.log
+backend/test_output_dossier.pdf
+
+# Environment variables & secrets
+backend/.env
+frontend/.env
+.env.local
+.env.*.local
+
+# Node & Frontend build
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+*.local
+*.tsbuildinfo
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editor & OS artifacts
+.vscode/
+.idea/
+*.swp
+*.swo
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
